@@ -93,7 +93,7 @@ const App = ()=> {
 
     
       var Heart=0,heart1=0;
-      const compare1 =sname.map((item)=>{
+      sname.map((item)=>{
           if(item==='a'||item==='e'||item==='i'||item==='o'||item==='u'){
             Heart+=Number(Handlefunction(item));
             return Handlefunction(item);
@@ -110,7 +110,7 @@ const App = ()=> {
     SetHeart1(HandleSum(heart1))
   
 var destiny =0;
-  const compare = sname.map((item)=>{
+  sname.map((item)=>{
     destiny+=Number(Handlefunction(item));
     return Handlefunction(item);
 
